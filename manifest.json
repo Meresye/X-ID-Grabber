@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "X ID Grabber",
+  "version": "1.0.0",
+  "description": "Copie o ID permanente e o link com ID de qualquer conta do X. Por Meresye.",
+  "action": { "default_popup": "popup.html", "default_title": "X ID Grabber" },
+  "icons": { "128": "icon.png" },
+  "content_scripts": [
+    { "matches": ["https://x.com/*", "https://twitter.com/*"], "js": ["content.js"], "css": ["content.css"], "run_at": "document_idle", "world": "MAIN" }
+  ]
+}

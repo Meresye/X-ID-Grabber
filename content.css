@@ -1,0 +1,8 @@
+.xidg-wrap{display:inline-flex;gap:4px;margin-left:6px;vertical-align:middle;align-items:center;flex-shrink:0}
+.xidg-btn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:3px;height:20px;padding:0 7px;border-radius:9999px;border:1px solid rgb(47,51,54);color:rgb(113,118,123);font:600 11px/1 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:transparent;transition:.15s}
+.xidg-btn:hover{color:rgb(29,155,240);border-color:rgba(29,155,240,.5);background:rgba(29,155,240,.1)}
+.xidg-btn.ok{color:rgb(0,186,124);border-color:rgba(0,186,124,.5);background:rgba(0,186,124,.1)}
+.xidg-btn svg{width:12px;height:12px;fill:currentColor}
+.xidg-profile{margin:8px 0 0 0}
+.xidg-profile .xidg-btn{height:26px;padding:0 11px;font-size:12px}
+.xidg-toast{position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:rgb(29,155,240);color:#fff;padding:12px 18px;border-radius:6px;font:400 15px -apple-system,"Segoe UI",Roboto,sans-serif;z-index:99999;box-shadow:0 0 15px rgba(255,255,255,.2)}
